@@ -2,7 +2,7 @@
  * File: 6-size.c
  * Auth: Rex Ifendu
  */
- 
+
 #include <stdio.h>
 
 /**
