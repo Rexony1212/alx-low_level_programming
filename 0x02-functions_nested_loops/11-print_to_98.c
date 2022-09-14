@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
  * print_times_table - Prints the times table of the input,
@@ -41,4 +41,3 @@ void print_times_table(int n)
 			_putchar('\n');
 		}
 	}
-}
