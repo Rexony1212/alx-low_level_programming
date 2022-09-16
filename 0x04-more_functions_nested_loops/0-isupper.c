@@ -2,17 +2,18 @@
 #include <stdio.h>
 
 /**
- * main - check the code.
+ * isupper-function to check if character is uppercase
  *
- * Return: Always 0.
+ * c: checks input of function
+ *
+ * Return: returns 1 if 'c' is uppercase
+ * otherwise always 0 (Success)
  */
-int main(void)
-{
-	char c;
 
-	c = 'A';
-	printf("%c: %d\n", c, _isupper(c));
-	c = 'a';
-	printf("%c: %d\n", c, _isupper(c));
-	return (0);
+int_isupper(int c)
+{
+	if (c>=65 && c <= 90)
+		return (1);
+	else
+		return (0);
 }
